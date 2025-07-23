@@ -27,5 +27,19 @@ button:hover{
     background-color: transparent;
     border: 2px solid #000000;
     cursor:pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-}   
+    box-shadow: rgba(72, 38, 38, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}  
+
+.voltar{
+
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.titulo{
+
+    position: absolute;
+    left: 725px;
+    top: 50px;
+    }
