@@ -37,3 +37,25 @@ function div(){
         respdiv.textContent = "Não se divide por 0!"
     }
 }
+
+function media(){
+
+    var n1 = document.getElementById("n1").valueAsNumber
+    var n2 = document.getElementById("n2").valueAsNumber
+    var n3 = document.getElementById("n3").valueAsNumber
+    var n4 = document.getElementById("n4").valueAsNumber
+    var n5 = document.getElementById("n5").valueAsNumber
+    var respmed = document.getElementById("respmed")
+
+    respmed.textContent = (n1+n2+n3+n4+n5)/5
+
+    var valid = (n1+n2+n3+n4+n5)/5
+
+    if(valid >= 7){
+        respmed.style.color = 'green'
+    }else{
+        respmed.style.color = 'red'
+    }
+
+    console.log("media = ", valid)
+}
