@@ -52,9 +52,12 @@ function media(){
     var valid = (n1+n2+n3+n4+n5)/5
 
     if(valid >= 7){
-        respmed.style.color = 'green'
+        media.style.color = 'green'
+        media.style.backgroundColor = 'lightgreen'
+
     }else{
-        respmed.style.color = 'red'
+        media.style.color = 'red'
+        media.style.backgroundColor = 'lightpink'
     }
 
     console.log("media = ", valid)
