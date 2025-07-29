@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.background {
+.backgroundSoma {
     background-image: url('./images/cinza\ pfv.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-.container {
+.containerSoma {
     background-color: #ffffff27;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ input:focus {
     outline: none;
 }
 
-.btn {
+.btnSoma {
     padding: 10px;
     border: none;
     border: 3px solid white;
